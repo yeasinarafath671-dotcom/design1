@@ -1,4 +1,4 @@
-z# Lombak Website
+Lombak Website
 
 A simple website built using HTML and CSS.
 
