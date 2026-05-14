@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: 'fnt1';
+    src: url('/fonts/remixicon.ttf');
+}
+main{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    
+    padding: 1vw;
+}
+.section1{
+    width: 100%;
+    height: 50vw;
+    background-image: url('/images/photo-1518173946687-a4c8892bbd9f.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 0.3vw;
+    width: 100%;
+    height: 10%;
+    
+    align-items: center;
+}
+nav h3{
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-family: tahoma;
+    letter-spacing: -0.1vw;
+    color: #fff;
+}
+.nav1{
+    display: flex;
+    gap: 2.4vw;
+    align-items: center;
+}
+.nav1 a{
+    text-decoration: none;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: tahoma;
+    color: #fff;
+    font-weight: 600;
+}
+.nav1 button{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: 'fnt1';
+    font-weight: 700;
+    padding: 0.7vw 1.3vw;
+    border: 1px solid #000;
+    background: transparent;
+}
+.center{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center h1{
+   font-size: 9vw;
+   text-transform: uppercase;
+    font-family: tahoma;
+   font-weight: 900;
+   letter-spacing: - 0.1vw;
+}
+.center p{
+    text-align: center;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-family: tahoma;
+    font-weight: 500;
+}
+.section2{
+    margin-top: 1.5vw;
+    width: 100%;
+    height: 100%;
+    display: grid;
+   grid-template-rows: 30% 70%;
+   background: #1D2021;
+  
+
+   
+   
+    
+}
+#hedaing{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  margin-bottom: 2vw;
+  gap: 1vw;
+  width: 100%;
+  height: 50%;
+  background: yellow;
+  
+}
+#hedaing h1{
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-family: tahoma;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+}
+#img{
+
+ display: flex;
+ gap: 1vw;
+  width: 100%;
+  height: 100%;
+ justify-content: center;
+}
+.div1{
+
+  width: 21%;
+  height: 100%;
+    background: red;
+}
+.line{
+    width: 5vw;
+    height: 0.2vw;
+    background: #000;
+}
+#png{
+    width: 100%;
+    height: 60%;
+    background: yellow;
+}
+#text{
+    width: 100%;
+    height: 40%;
+    background: #181A1B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+.line1{
+    width: 3vw;
+    height: 0.2vw;
+    background: #000;
+}
+#png img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#text p{
+    font-size: 1vw;
+    font-family: tahoma;
+    font-weight: 600;
+    line-height: 0.5vw;
+
+
+}
+.section3{
+    padding: 1vw;
+    width: 100%;
+    height: 45vw;
+   
+   display: flex;
+   gap: 1vw;
+
+   
+}
+#left{
+    width: 50%;
+    
+    background: thistle
+}
+#right{
+  
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 7vw;
+    flex-direction: column;
+   gap: 1vw;
+}
+#right h1{
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    font-family: tahoma;
+    font-weight: 600;
+    cursor: pointer;
+}
+#right p{
+    margin-top: 4vw;
+    width: 77%;
+    font-size: 1.3vw;
+    text-align: center;
+    font-family: tahoma;
+}
+#img1{
+    width: 100%;
+    height: 100%;
+    background: olivedrab;
+}
+#img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1vw;
+    width: 100%;
+    height: 25vw;
+    background: #1D2021;
+    gap: 0.6vw;
+}
+.section4 h1{
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-family: tahoma;
+    color: #fff;
+}
+.section4 h3{
+    color: #fff;
+    font-size: 1vw;
+    font-weight: 600;
+   
+    letter-spacing: 0.1vw;
+    font-family: tahoma;
+
+}
+.section4 input{
+   padding: 1vw 4vw;
+   background: #3B3B3B;
+   border: none;
+   
+}
+.section4 input::placeholder{
+   font-size: 1vw;
+}
+.section4 button{
+    padding: 0.3vw 1.5vw;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    background: transparent;
+
+}
+footer{
+    width: 100%;
+    height: 20vw;
+    background: #181A1B;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer #icon{
+    display: flex;
+    gap: 0.5vw;
+    font-size: 2vw;
+    align-items: center;
+}
+footer #last-text{
+
+   display: flex;
+   align-items: center;
+   gap: 0.5vw;
+   font-size: 1vw;
+   font-family: tahoma;
+   text-transform: uppercase;
+   
+}
+footer #last-text a{
+    text-decoration: none;
+   color: #fff;
+   font-family: tahoma;
+   
+}
+#line2{
+    width: 2vw;
+    height: 0.3vw;
+    background: #000;
+    margin-top: 1vw;
+}
+@media screen and (max-width: 915px) {
+    main{
+        padding: 3vw;
+    }
+    .section1 {
+      width: 100%;
+      height: 100%;
+        
+    }
+    .center h1{
+        font-size: 14vw;
+    }
+    .center p{
+        font-size: 4vw;
+    }
+    #line2{
+        width: 8vw;
+        height: 1vw;
+        margin-top: 2vw;
+    }
+    nav{
+        padding: 2vw;
+    }
+    nav h3{
+        font-size: 5vw;
+    }
+    .nav1 a{
+      display: none;
+    }
+    .nav1 button{
+        display: none;
+    }
+    .nav1 span i{
+        
+        font-size: 5vw;
+        font-weight: 800;
+    }
+    .nav1 span i{
+        opacity: 10;
+    }
+    .section2{
+       
+        background: olivedrab;
+       
+       
+   
+    }
+    #img{
+       display: block;
+        width: 100%;
+        height: 100%;
+        background: green;
+    }
+   .div1{
+    background: yellow;
+    width: 100%;
+    height: fit-content;
+
+    
+   }
+    
+}
